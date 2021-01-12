@@ -1,1 +1,3 @@
-(0...51).each { |index| puts "jean.dupont.#{sprintf '%02d', index}@email.fr" if index.even? }
+arr = []
+(0...51).each { |index| arr << "jean.dupont.#{sprintf '%02d', index}@email.fr" if index.even? }
+puts arr
